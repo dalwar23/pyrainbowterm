@@ -190,6 +190,14 @@ def main():
     print('This is an ERROR message!', color='red', log_type='error')
     print('This message shows a warning to the user!', log_type='warn')
     print('This message is a debug message!', log_type='debug')
+    # Rainbow message!!
+    print('This ', color='red', end='')
+    print('is ', color='orange', end='')
+    print('a ', color='yellow', end='')
+    print('rainbow ', color='green', end='')
+    print('colored ', color='cyan', end='')
+    print('string ', color='blue', end='')
+    print('message!', color='purple')
 
 
 # Standard boilerplate for running the source code

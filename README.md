@@ -1,6 +1,6 @@
 # xtermcolors
 xtermcolors - Smart custom print function with color and log information support.
-Available in python 2.7.x and >3.4
+Available in python 2.7.x and >3.2
 
 :copyright: Copyright 2018 Dalwar Hossain
 
@@ -68,6 +68,8 @@ print(value1, value2, sep='-', end='\n', file=sys.stdout,
       color='red', bg_color='orange', text_format='bold', log_type='info')
 
 ```
+
+#### Example Screen Capture
 
 #### Bug Report
 Please report bugs at -

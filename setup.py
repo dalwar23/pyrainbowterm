@@ -32,13 +32,5 @@ setup(name='xtermcolors',
       author_email='dalwar.hossain@protonmail.com',
       license='MIT',
       packages=['xtermcolors'],
-      # install_requires=[
-      #     'nose', 'nose-cover3',
-      # ],
-      # test_suite='nose.collector',
-      # tests_require=['nose', 'nose-cover3'],
-      # entry_points={
-      #    'console_scripts': ['funniest-joke=funniest.command_line:main'],
-      # },
       include_package_data=True,
       zip_safe=False)
