@@ -2,5 +2,5 @@
 # -*- coding: utf-8 -*-
 
 
-__author__ = "Dalwar Hossain"
-__email__ = "dalwar.hossain@protonmail.com"
+__author__ = 'Dalwar Hossain'
+__email__ = 'dalwar.hossain@protonmail.com'
