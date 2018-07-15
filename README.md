@@ -5,26 +5,60 @@ Available in python 2.7.x
 :copyright: 2018 Dalwar Hossain
 :Licence: MIT
 
-This **python package** uses `print_function` from `__future__` module. To know more about `__future__.print_function`
+This python package uses `print_function` from `__future__` module. To know more about `__future__.print_function`
 please visit [https://docs.python.org/2/library/__future__.html](https://docs.python.org/2/library/__future__.html)
 
 #### Currently supported Foreground Colors
-Red, Green, Orange, Blue,Purple, Cyan, Light Gray, Dark Gray, Light Red, Light green,
-Yellow, Light Blue, Pink, Light Cyan
+- Red (red)
+- Green (green)
+- Orange (orange)
+- Blue (blue)
+- Purple (purple)
+- Cyan (cyan)
+- Light Gray (light_gray)
+- Dark Gray (dark_gray)
+- Light Red (light_red)
+- Light green (light_green)
+- Yellow (yellow)
+- Light Blue (light_blue)
+- Pink (pink)
+- Light Cyan (light_cyan)
 
 #### Currently Supported Background Colors
-Black, Red, Green, Blue, Orange, Purple, Cyan, Light Gray
+- Gray (gray)
+- Red (red)
+- Green (green)
+- Blue (blue)
+- Orange (orange)
+- Purple (purple)
+- Cyan (cyan)
+- Light Gray (light_gray)
 
 #### Currently Supported Text Formats
-Bold, Disable, Underline, Blink (depends on OS and terminal), Reverse, Strike Through, Concealed
+- Bold (bold)
+- Dark (dark)
+- Underline (underline)
+- Blink (blink) *\[depends on OS and terminal\]*
+- Reverse (reverse)
+- Strike Through (strike_through)
+- Concealed (concealed)
 
 #### Currently Supported Log Types
-Info (Information), Error (Error), Warn (Warning), Hint (Hint), Debug (Debug)
+- Info (info)
+- Error (error)
+- Warn (warn)
+- Hint (hint)
+- Debug (debug)
 
 #### Usage Example
 ```python
 from __future__ import print_function
 from xtermcolors import *
-print(value1, value2, sep='-', end='\n', file=sys.stdout, color='red', bg_color='orange', text_format='bold', log_type='info')
+print(value1, value2, sep='-', end='\n', file=sys.stdout,
+      color='red', bg_color='orange', text_format='bold', log_type='info')
 
 ```
+
+#### Bug Report
+Please report any bug to the author at below email address
+dalwar.hossain@protonmail.com

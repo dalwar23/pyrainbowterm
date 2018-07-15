@@ -21,7 +21,7 @@ Yellow, Light Blue, Pink, Light Cyan
 
 Currently Supported Background Colors:
 ======================================
-Black, Red, Green, Blue, Orange, Purple, Cyan, Light Gray
+Gray, Red, Green, Blue, Orange, Purple, Cyan, Light Gray
 
 Currently Supported Text Formats:
 =================================
@@ -76,7 +76,7 @@ background_colors = {
 
 # Define Text Formats
 text_formats = {
-    'bold': 1, 'dark': 2, 'underline': 4,
+    'bold': 1, 'dark': 2, 'underline   ': 4,
     'blink': 5, 'reverse': 7, 'concealed': 8,
     'strike_through': 9
 }
