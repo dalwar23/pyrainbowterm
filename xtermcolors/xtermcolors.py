@@ -41,7 +41,10 @@ from __future__ import print_function
 
 # Import python libraries
 import sys
-import __builtin__
+if sys.version_info[0] ==2:
+    import __builtin__
+if sys.version_info[0] == 3:
+    import builtins as ____builtin__
 
 
 # Source code meta data
@@ -112,7 +115,13 @@ def print(*args, **kwargs):
 
     # Check formats, create a list of text formats
     txt_formats = kwargs.pop('text_format', [])
-    if isinstance(txt_formats, basestring):
+    if sys.version_info[0] == 2:
+        str_type = basestring
+    elif sys.version_info[0] == 3:
+        str_type = str
+    else:
+        str_type = basestring
+    if isinstance(txt_formats, str_type):
         txt_formats = [txt_formats]
 
     # Check for file keyword

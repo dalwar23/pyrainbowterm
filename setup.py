@@ -33,7 +33,7 @@ setup(name='xtermcolors',
       license='MIT',
       packages=['xtermcolors'],
       # install_requires=[
-      #    'markdown',
+      #     'nose', 'nose-cover3',
       # ],
       # test_suite='nose.collector',
       # tests_require=['nose', 'nose-cover3'],
