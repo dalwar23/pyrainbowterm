@@ -16,12 +16,12 @@ https://docs.python.org/2/library/__future__.html
 
 Currently supported Foreground Colors:
 ======================================
-Red, Green, Orange, Blue,Purple, Cyan, Light Gray, Dark Gray, Light Red, Light green,
+Black, Red, Green, Orange, Blue,Purple, Cyan, Light Gray, Dark Gray, Light Red, Light green,
 Yellow, Light Blue, Pink, Light Cyan
 
 Currently Supported Background Colors:
 ======================================
-Gray, Red, Green, Blue, Orange, Purple, Cyan, Light Gray
+Black, Red, Green, Blue, Orange, Purple, Cyan, Light Gray
 
 Currently Supported Text Formats:
 =================================
@@ -60,7 +60,7 @@ __all__ = ['print']
 
 # Define Foreground Colors
 foreground_colors = {
-    'gray': 30, 'red': 31, 'green': 32,
+    'black': 30, 'red': 31, 'green': 32,
     'orange': 33, 'blue': 34, 'purple': 35,
     'cyan': 36, 'light_gray': 37, 'dark_gray': 90,
     'light_red': 91, 'light_green': 92, 'yellow': 93,
@@ -69,14 +69,14 @@ foreground_colors = {
 
 # Define Background Colors
 background_colors = {
-    'gray': 40, 'red': 41, 'green': 42,
+    'black': 40, 'red': 41, 'green': 42,
     'orange': 43, 'blue': 44, 'purple': 45,
     'cyan': 46, 'light_gray': 47
 }
 
 # Define Text Formats
 text_formats = {
-    'bold': 1, 'dark': 2, 'underline   ': 4,
+    'bold': 1, 'dark': 2, 'underline': 4,
     'blink': 5, 'reverse': 7, 'concealed': 8,
     'strike_through': 9
 }
@@ -85,7 +85,7 @@ text_formats = {
 log_types = {
     'info': 'pink', 'error': 'red',
     'warn': 'orange', 'hint': 'blue',
-    'debug': 'gray'
+    'debug': 'light_gray'
 }
 
 
@@ -172,10 +172,14 @@ def print(*args, **kwargs):
 
 # main function
 def main():
-    print('This is a normal string')
-    print('Hello', 'world', color='pink', bg_color='blue', text_format='underline', end='', sep=', ')
+    print('This is a normal string!')
+    print('This is a black string', 'with light gray background and underline', color='black', bg_color='light_gray', text_format='underline', end='', sep=', ')
     print('!', color='red', text_format=['bold', 'blink'])
-    print('this is a line with log', log_type='hint')
+    print('This line shows a hint message on the screen!', log_type='hint')
+    print('This message shows a general information on the screen!', log_type='info')
+    print('This is an ERROR message!', color='red', log_type='error')
+    print('This message shows a warning to the user!', log_type='warn')
+    print('This message is a debug message!', log_type='debug')
 
 
 # Standard boilerplate for running the source code

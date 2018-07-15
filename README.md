@@ -7,9 +7,10 @@ Available in python 2.7.x
 :scroll: License: MIT
 
 This python package uses `print_function` from `__future__` module. To know more about `__future__.print_function`
-please visit this [documentation](https://docs.python.org/2/library/__future__.html)
+please see this [documentation](https://docs.python.org/2/library/__future__.html)
 
 #### Currently supported Foreground Colors
+- Black (black)
 - Red (red)
 - Green (green)
 - Orange (orange)
@@ -26,7 +27,7 @@ please visit this [documentation](https://docs.python.org/2/library/__future__.h
 - Light Cyan (light_cyan)
 
 #### Currently Supported Background Colors
-- Gray (gray)
+- Black (black)
 - Red (red)
 - Green (green)
 - Blue (blue)
@@ -61,6 +62,6 @@ print(value1, value2, sep='-', end='\n', file=sys.stdout,
 ```
 
 #### Bug Report
-Please report any bug to the author at below email address
+Please report bugs at -
 
 :email: dalwar.hossain@protonmail.com
