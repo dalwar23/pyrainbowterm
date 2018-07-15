@@ -1,6 +1,6 @@
 # xtermcolors
 xtermcolors - Smart custom print function with color and log information support.
-Available in python 2.7.x
+Available in python 2.7.x and >3.4
 
 :copyright: Copyright 2018 Dalwar Hossain
 
