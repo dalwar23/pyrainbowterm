@@ -3,10 +3,10 @@ xtermcolors - Smart print function with color and log information support.
 Available in python 2.7.x
 
 :copyright: 2018 Dalwar Hossain
-:Licence: MIT
+:licence: MIT
 
 This python package uses `print_function` from `__future__` module. To know more about `__future__.print_function`
-please visit [https://docs.python.org/2/library/__future__.html](https://docs.python.org/2/library/__future__.html)
+please visit [documentation](https://docs.python.org/2/library/__future__.html)
 
 #### Currently supported Foreground Colors
 - Red (red)
