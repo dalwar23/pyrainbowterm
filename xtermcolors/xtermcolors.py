@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-xterm colors - Smart print and log info. Available in python 2.7.x
+xtermcolors - Smart print function with color and log information support.
+Available in python 2.7.x
 
 :copyright: 2018 Dalwar Hossain
 :Licence: MIT
@@ -32,7 +33,7 @@ Info (Information), Error (Error), Warn (Warning), Hint (Hint), Debug (Debug)
 
 Usage Example:
 ==============
-
+print(value1, value2, sep='', end='\n', file=sys.stdout, color=None, bg_color=None, text_format=None, log_type=None)
 """
 
 from __future__ import print_function
@@ -167,7 +168,6 @@ def print(*args, **kwargs):
         __builtin__.print('\033[0m',  file=file_name, end=end_)
     else:
         __builtin__.print(*args, **kwargs)
-    pass
 
 
 # main function
