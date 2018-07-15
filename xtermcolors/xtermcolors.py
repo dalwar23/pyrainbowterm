@@ -85,7 +85,7 @@ text_formats = {
 log_types = {
     'info': 'pink', 'error': 'red',
     'warn': 'orange', 'hint': 'blue',
-    'debug': 'light_gray'
+    'debug': 'dark_gray'
 }
 
 
@@ -173,8 +173,9 @@ def print(*args, **kwargs):
 # main function
 def main():
     print('This is a normal string!')
-    print('This is a black string', 'with light gray background and underline', color='black', bg_color='light_gray', text_format='underline', end='', sep=', ')
-    print('!', color='red', text_format=['bold', 'blink'])
+    print('This is a black string', 'with light gray background and underline',
+          color='black', bg_color='light_gray', text_format='underline', end='', sep=', ')
+    print('!!!!!', color='red', text_format=['bold', 'blink'])
     print('This line shows a hint message on the screen!', log_type='hint')
     print('This message shows a general information on the screen!', log_type='info')
     print('This is an ERROR message!', color='red', log_type='error')
