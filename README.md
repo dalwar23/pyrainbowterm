@@ -69,7 +69,8 @@ print(value1, value2, sep='-', end='\n', file=sys.stdout,
 
 ```
 
-#### Example Screen Capture
+#### Sample Screen Capture
+![Sample Screen Capture](https://github.com/dharif23/xtermcolors/blob/master/images/xtermcolors.png)
 
 #### Bug Report
 Please report bugs at -
