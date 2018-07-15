@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-xtermcolors - Smart print function with color and log information support.
+xtermcolors - Smart custom print function with color and log information support.
 Available in python 2.7.x
 
 :copyright: 2018 Dalwar Hossain
@@ -14,7 +14,7 @@ parameters
 To know more about __future__.print_function please visit
 https://docs.python.org/2/library/__future__.html
 
-Currently supported Foreground Colors:
+Currently Supported Foreground Colors:
 ======================================
 Black, Red, Green, Orange, Blue,Purple, Cyan, Light Gray, Dark Gray, Light Red, Light green,
 Yellow, Light Blue, Pink, Light Cyan
@@ -89,7 +89,7 @@ log_types = {
 }
 
 
-# Print function with a little hack on it
+# Custom print function with a few extra keywords
 def print(*args, **kwargs):
     """
     Normally print function in python prints values to a stream / stdout

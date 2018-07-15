@@ -1,5 +1,5 @@
 # xtermcolors
-xtermcolors - Smart print function with color and log information support.
+xtermcolors - Smart custom print function with color and log information support.
 Available in python 2.7.x
 
 :copyright: Copyright 2018 Dalwar Hossain
@@ -9,7 +9,7 @@ Available in python 2.7.x
 This python package uses `print_function` from `__future__` module. To know more about `__future__.print_function`
 please see this [documentation](https://docs.python.org/2/library/__future__.html)
 
-#### Currently supported Foreground Colors
+#### Currently Supported Foreground Colors
 - Black (black)
 - Red (red)
 - Green (green)
@@ -46,12 +46,20 @@ please see this [documentation](https://docs.python.org/2/library/__future__.htm
 - Concealed (concealed)
 
 #### Currently Supported Log Types
-- Info (info)
+- Information (info)
 - Error (error)
-- Warn (warn)
+- Warning (warn)
 - Hint (hint)
 - Debug (debug)
 
+#### Setup
+```python
+python setup.py install
+```
+OR
+```python
+pip install xtermcolors
+```
 #### Usage Example
 ```python
 from __future__ import print_function
