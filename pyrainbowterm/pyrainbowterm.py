@@ -41,7 +41,7 @@ from __future__ import print_function
 
 # Import python libraries
 import sys
-if sys.version_info[0] ==2:
+if sys.version_info[0] == 2:
     import __builtin__
 if sys.version_info[0] == 3:
     import builtins as ____builtin__
