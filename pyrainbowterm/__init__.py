@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from .xtermcolors import *
+from .pyrainbowterm import *
 
 
 __author__ = 'Dalwar Hossain'

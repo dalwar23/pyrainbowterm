@@ -1,5 +1,5 @@
-# xtermcolors
-xtermcolors - Smart custom print function with color and log information support.
+# pyrainbowterm
+pyrainbowterm - Smart custom print function with color and log information support.
 Available in python 2.7.x and >3.2
 
 :copyright: Copyright 2018 Dalwar Hossain
@@ -56,14 +56,11 @@ please see this [documentation](https://docs.python.org/2/library/__future__.htm
 ```python
 python setup.py install
 ```
-OR
-```python
-pip install xtermcolors
-```
+
 #### Usage Example
 ```python
 from __future__ import print_function
-from xtermcolors import *
+from pyraibowterm import *
 print(value1, value2, sep='-', end='\n', file=sys.stdout,
       color='red', bg_color='orange', text_format='bold', log_type='info')
 

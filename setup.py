@@ -14,9 +14,9 @@ def readme():
         return f.read()
 
 
-setup(name='xtermcolors',
+setup(name='pyrainbowterm',
       version='1.0',
-      description='xtermcolors - Smart custom print function with color and log information support',
+      description='pyrainbowterm - Smart custom print function with color and log information support',
       long_description=readme(),
       classifiers=[
           'Intended Audience :: Developers',
@@ -27,10 +27,10 @@ setup(name='xtermcolors',
           'Topic :: Software Development :: Libraries :: Python Modules',
       ],
       keywords='terminal colors xterm python colored output',
-      url='https://github.com/dharif23/xtermcolors',
+      url='https://github.com/dharif23/pyrainbowterm',
       author='Dalwar Hossain',
       author_email='dalwar.hossain@protonmail.com',
       license='MIT',
-      packages=['xtermcolors'],
+      packages=['pyrainbowterm'],
       include_package_data=True,
       zip_safe=False)

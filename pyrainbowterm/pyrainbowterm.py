@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-xtermcolors - Smart custom print function with color and log information support.
+pyrainbowterm - Smart custom print function with color and log information support.
 Available in python 2.7.x
 
 :copyright: 2018 Dalwar Hossain
