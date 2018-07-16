@@ -53,10 +53,16 @@ please see this [documentation](https://docs.python.org/2/library/__future__.htm
 - Debug (debug)
 
 #### Setup
+Manul install from source code - 
 ```python
 python setup.py install
 ```
+OR
 
+Install via pip
+```python
+pip install pyrainbowterm
+```
 #### Usage Example
 ```python
 from __future__ import print_function
