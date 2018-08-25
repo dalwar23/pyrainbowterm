@@ -4,7 +4,7 @@ Available in python 2.7.x and >3.x
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PyPI version](https://badge.fury.io/py/pyrainbowterm.svg)](https://badge.fury.io/py/pyrainbowterm)
-
+[![Build Status](https://travis-ci.org/dharif23/pyrainbowterm.svg?branch=master)](https://travis-ci.org/dharif23/pyrainbowterm)
 
 This python package uses `print_function` from `__future__` module. To know more about `__future__.print_function`
 please see this [documentation](https://docs.python.org/2/library/__future__.html)
